@@ -49,9 +49,9 @@
     },
     "footer": {
         "socials": {
+            "website": "https://elouan.xyz",
             "bluesky": "https://bsky.app/profile/elouan.xyz",
-            "github": "https://github.com/elouangrimm",
-            "ping": "https://elouan.xyz/ping"
+            "github": "https://github.com/elouangrimm"
         }
     }
 }
