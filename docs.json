@@ -1,52 +1,57 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      "home"
-    ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "linden",
+    "name": "elouan.xyz",
+    "colors": {
+        "primary": "#4680ff",
+        "light": "#4680ff",
+        "dark": "#4680ff"
+    },
+    "favicon": "/favicon-512x512.png",
+    "navigation": {
+        "pages": ["home"]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Contact",
+                "href": "mailto:hello@elouan.xyz"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "apps",
+            "href": "https://apps.elouan.xyz"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "errors": {
+        "404": {
+            "redirect": false,
+            "title": "Hmmm... looks like you're lost.",
+            "description": "Whatever you were looking for, it's not here."
+        }
+    },
+    "footer": {
+        "socials": {
+            "bluesky": "https://bsky.app/profile/elouan.xyz",
+            "github": "https://github.com/elouangrimm",
+            "ping": "https://elouan.xyz/ping"
+        }
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
